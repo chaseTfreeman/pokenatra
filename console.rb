@@ -5,8 +5,8 @@ require 'active_record'
 require_relative 'db/connection'
 
 # Load models
-require_relative 'models/artist'
-require_relative 'models/song'
+require_relative 'models/trainer'
+require_relative 'models/pokemon'
 
 binding.pry
 
