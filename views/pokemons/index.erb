@@ -1,5 +1,7 @@
 <% @pokemons.each do |pokemon| %>
-<div class="pokemon">
+<div class="containareon">
+  <h2><a href='/pokemons/<%= pokemon.id %>'><%= pokemon.name %></a></h2>
+  <img src="<%= pokemon.img_url %>">
 
 </div>
 <% end %>

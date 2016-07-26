@@ -6,13 +6,14 @@
   src: url(../fonts/PokemonSolid.ttf) format("truetype");
 }
 
-a, p, h2, h3 {
+a, p, h2, h3, label {
   color: rgb(215, 215, 0);
   text-shadow: rgb(35, 75, 180) 3px 3px 1px;
   -webkit-text-stroke: 2px rgb(55, 95, 200);
   text-decoration: none;
   border-radius: 100px;
 }
+
 
 
 body {
@@ -38,7 +39,7 @@ a:hover {
   justify-content: center;
 }
 
-.pokemon{
+.pokemon, img {
   min-width: 375px;
   background-color: rgb(255, 255, 255);
   padding: 10px;
